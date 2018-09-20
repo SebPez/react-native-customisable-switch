@@ -94,11 +94,11 @@ export default class Switch extends Component {
         duration: animationTime,
       }),
       Animated.timing(this.state.backgroundColor, {
-        toValue: value ? 75 : -75,
+        toValue: value ? 90 : -90,
         duration: animationTime,
       }),
       Animated.timing(this.state.buttonBackgroundColor, {
-        toValue: value ? 75 : -75,
+        toValue: value ? 90 : -90,
         duration: animationTime,
       })
     ]).start();
